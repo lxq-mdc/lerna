@@ -15,5 +15,6 @@
   ],
   "scripts": {
     "test": "node ./__tests__/lerna-module1.test.js"
-  }
+  },
+  "gitHead": "0851cff49e8c4891f6f6209ce8863694e08474a7"
 }
