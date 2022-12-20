@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe D:\nodejs\node_global\node_modules\yarn\bin\yarn.js install --mutex network:42424 --non-interactive
+
+PATH: 
+  D:\Program Files\JetBrains\PyCharm Community Edition 2022.1\anaconda;D:\Program Files\JetBrains\PyCharm Community Edition 2022.1\anaconda\Library\mingw-w64\bin;D:\Program Files\JetBrains\PyCharm Community Edition 2022.1\anaconda\Library\usr\bin;D:\Program Files\JetBrains\PyCharm Community Edition 2022.1\anaconda\Library\bin;D:\Program Files\JetBrains\PyCharm Community Edition 2022.1\anaconda\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;node_global;node_modules;D:\Program Files\Git\cmd;node_global\yarn_cache;node_global\yarn_global;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\mingw64\bin;D:\developer_tools\JDK\bin;D:\apache-maven-3.5.3\bin;D:\Program Files\redis;D:\Users\14240\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs;D:\nodejs\node_global;D:\nodejs\node_global\node_modules\yarn\bin;D:\nodejs\node_global\bin;D:\nodejs\node_global\bin\taro.cmd;D:\Users\14240\AppData\Roaming\nvm\v12.10.0;D:\nodejs\;D:\nodejs\node_global\bin\vue.cmd;D:\Program Files (x86)\Tencent\微信web开发者工具\dll;";D:\Program Files\flutter\flutter_windows_3.0.0-stable\flutter\bin";C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;D:\mingw64\bin;D:\Program Files\maven\apache-maven-3.8.5\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\14240\AppData\Local\pnpm;C:\Users\14240\AppData\Local\pnpm;C:\Users\14240\.cargo\bin;C:\Users\14240\AppData\Local\Microsoft\WindowsApps;D:\Users\14240\AppData\Local\Programs\Microsoft VS Code\bin;D:\Program Files\nodejs\node_global;D:\Program Files\Git;D:\Program Files\Git\bin;D:\Program Files\Git\mingw64\libexec\git-core;D:\Program Files\JetBrains\WebStorm 2021.2.3\bin;;C:\Program Files\Bandizip\;D:\Program Files\JetBrains\CLion 2021.2.3\bin;;D:\altera\13.1\modelsim_ase\win32aloem;D:\Program Files\JetBrains\IntelliJ IDEA 2022.1.2\bin;;D:\Program Files\redis;D:\Users\14240\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs;C:\Users\14240\AppData\Roaming\npm;D:\Program Files\nodejs\node_global\bin;D:\wsl\Microsoft VS Code Insiders\bin;C:\Program Files\JetBrains\PyCharm 2021.3.2\bin;;D:\Program Files\JetBrains\PyCharm Community Edition 2022.1\bin;;C:\Users\14240\.dotnet\tools;D:\mingw64\bin;D:\Program Files\c\mingw64\bin;C:\Users\14240\AppData\Local\pnpm;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/lerna: tunneling socket could not be established, cause=socket hang up
+      at ClientRequest.onError (D:\nodejs\node_global\node_modules\yarn\lib\cli.js:152369:17)
+      at Object.onceWrapper (node:events:510:26)
+      at ClientRequest.emit (node:events:390:28)
+      at Socket.socketOnEnd (node:_http_client:471:9)
+      at Socket.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "root",
+    "private": true,
+    "workspaces": [
+      "packages/*"
+    ],
+    "devDependencies": {
+      "lerna": "^6.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

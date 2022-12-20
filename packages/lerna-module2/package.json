@@ -1,0 +1,22 @@
+{
+  "name": "lerna-module2",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "zl-mdc <1424084297@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/lerna-module2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./lib/lerna-module2.js"
+  },
+  "dependencies": {
+    "lerna-module1": "^0.0.0"
+  }
+}
