@@ -4,7 +4,7 @@
   "description": "> TODO: description",
   "author": "zl-mdc <1424084297@qq.com>",
   "homepage": "",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/lerna-module1.js",
   "directories": {
     "lib": "lib",
@@ -16,5 +16,5 @@
   "scripts": {
     "test": "node ./__tests__/lerna-module1.test.js"
   },
-  "gitHead": "0851cff49e8c4891f6f6209ce8863694e08474a7"
+  "gitHead": "cdb44de673adc2b4dc09730754e544b00cc173a1"
 }
